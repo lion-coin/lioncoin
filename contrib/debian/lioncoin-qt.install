@@ -1,0 +1,6 @@
+lioncoin-qt usr/bin
+share/pixmaps/lioncoin32.xpm usr/share/pixmaps
+share/pixmaps/lioncoin16.xpm usr/share/pixmaps
+share/pixmaps/lioncoin128.png usr/share/pixmaps
+debian/lioncoin-qt.desktop usr/share/applications
+debian/lioncoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lioncoin
+Comment=Lioncoin P2P Cryptocurrency
+Comment[fr]=Lioncoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Lioncoin, eşten eşe kriptografik sanal para birimi
+Exec=lioncoin-qt %u
+Terminal=false
+Type=Application
+Icon=lioncoin128
+MimeType=x-scheme-handler/lioncoin;
+Categories=Office;Finance;

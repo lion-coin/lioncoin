@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+#DEB_MAKE_CHECK_TARGET = test_lioncoin
+#build/lioncoind::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_lioncoin)
+
+DEB_INSTALL_EXAMPLES_lioncoind += debian/examples/*
+DEB_INSTALL_MANPAGES_lioncoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix lioncoind
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f lioncoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake lioncoin-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_lioncoin
+	src/test_lioncoin
+
+# Ensure wrapper is set executable
+binary-post-install/lioncoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/lioncoind
+binary-post-install/lioncoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/lioncoin-qt

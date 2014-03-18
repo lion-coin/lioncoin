@@ -1,0 +1,5 @@
+Building Lioncoin
+
+See doc/build-*.md for instructions on building lioncoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Lioncoin.
