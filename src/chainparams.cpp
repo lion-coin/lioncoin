@@ -60,9 +60,9 @@ public:
 		
 
 		
-		printf("Net %s\n", hashGenesisBlock.ToString().c_str());
-        printf("Net %s\n", hashGenesisBlock.ToString().c_str());
-        printf("Net %s\n", genesis.hashMerkleRoot.ToString().c_str());
+		//printf("Net %s\n", hashGenesisBlock.ToString().c_str());
+        //printf("Net %s\n", hashGenesisBlock.ToString().c_str());
+       // printf("Net %s\n", genesis.hashMerkleRoot.ToString().c_str());
        
         genesis.print();			
 		

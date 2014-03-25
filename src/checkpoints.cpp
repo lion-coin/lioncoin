@@ -1,4 +1,3 @@
-// Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2009-2014 The Lioncoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -40,14 +39,21 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, uint256("0x00000000fffd11a84086d005484f144e72a1667a591679740f22f584d35dfd3b"))
+           ( 0, uint256("0x00000000fffd11a84086d005484f144e72a1667a591679740f22f584d35dfd3b"))
+		 ( 100, uint256("0x000000000041e6c57ae18174dc06091c22dc25b36cd1bbd8c7e63ffcd67f1869"))
+		 ( 500, uint256("0x000000000018e93bbd05a52788c87c078e253e88b78836cbeb75c651badb78e5"))
+		( 1000, uint256("0x00000000000030b9365b0cb42b79527782d392493a2a60ecbf77f51b32e6379e"))
+		( 1500, uint256("0x000000000002b63340743eb32447c0e48ee9eacda0c465370853cf6ba1b0770e"))
+		( 2000, uint256("0x000000000001b964be800cf3f4f8de36408914a6f634e981f36c3b31df53c2cf"))
+		( 3000, uint256("0x000000000000d939a9d708b600ce4e73ed80d5f6769bb36dfdf4cde5f906e727"))
+		( 4000, uint256("0x00000000000820fb54ce7c35d5f61868ac409f97df83a029b35602dd28022233"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1394764631, // * UNIX timestamp of last checkpoint block
-        0,   // * total number of transactions between genesis and last checkpoint
+        1395675237, // * UNIX timestamp of last checkpoint block
+        4016,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        0.0     // * estimated number of transactions per day after checkpoint
+        500.0     // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet =
