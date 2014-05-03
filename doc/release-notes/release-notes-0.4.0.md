@@ -34,8 +34,7 @@ Options menu.  You will be prompted to enter a passphrase, which
 will be used as the key to encrypt your wallet and will be needed
 every time you wish to send Lioncoins.  If you lose this passphrase,
 you will lose access to spend all of the lioncoins in your wallet,
-no one, not even The Bitcoin developers
-// Copyright (c) 2009-2014 The Lioncoin developers can recover your Lioncoins.
+no one, not even the Lioncoin developers can recover your Lioncoins.
 This means you are responsible for your own security, store your
 passphrase in a secure location and do not forget it.
 

@@ -1,4 +1,4 @@
-Lioncoin 0.9.0rc1 BETA
+Lioncoin 0.9.1 BETA
 =====================
 
 Copyright (c) 2009-2014 Lioncoin Developers

@@ -1,5 +1,4 @@
-// Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2009-2014 The Lioncoin developers
+// Copyright (c) 2012 The Lioncoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -38,8 +37,8 @@ const std::string CLIENT_NAME("Satoshi");
 // git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#    define GIT_COMMIT_ID "af57c1b"
-#    define GIT_COMMIT_DATE "Wed, 12 Mar 2014 11:30:14 -0400"
+#    define GIT_COMMIT_ID "026a939"
+#    define GIT_COMMIT_DATE "Tue, 8 Apr 2014 12:04:06 +0200"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \

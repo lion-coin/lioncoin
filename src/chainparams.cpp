@@ -1,5 +1,4 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2009-2014 The Lioncoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -40,7 +39,9 @@ public:
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 10800;
 
-
+  
+		
+		
         const char* pszTimestamp = "LionCoin: 03.2014";
         CTransaction txNew;
         txNew.vin.resize(1);
@@ -56,20 +57,18 @@ public:
         genesis.nBits    = 0x1d00ffff;
         genesis.nNonce   = 2495161932;
 
-        hashGenesisBlock = genesis.GetHash();
+	    hashGenesisBlock = genesis.GetHash();	
 		
-
+	
+	
 		
-		//printf("Net %s\n", hashGenesisBlock.ToString().c_str());
-        //printf("Net %s\n", hashGenesisBlock.ToString().c_str());
-       // printf("Net %s\n", genesis.hashMerkleRoot.ToString().c_str());
-       
-        genesis.print();			
-		
+  
         assert(hashGenesisBlock == uint256("0x00000000fffd11a84086d005484f144e72a1667a591679740f22f584d35dfd3b"));
         assert(genesis.hashMerkleRoot == uint256("0xd5332d0dc0f045768b01b71a628a859c5c9583e18d98009e65c80ecc55913c1a"));
 
-		vSeeds.push_back(CDNSSeedData("lioncoin.info", "dnsseeds.lioncoin.info"));
+        
+        vSeeds.push_back(CDNSSeedData("lioncoin.info", "dnsseeds.lioncoin.info"));
+       
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(48);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
@@ -128,11 +127,12 @@ public:
         genesis.nTime = 1296688602;
         genesis.nNonce = 414098458;
         hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0x"));
+       // assert(hashGenesisBlock == uint256("0x000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-   
+        vSeeds.push_back(CDNSSeedData("lioncoin.petertodd.org", "testnet-seed.lioncoin.petertodd.org"));
+        vSeeds.push_back(CDNSSeedData("bluematt.me", "testnet-seed.bluematt.me"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(111);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
@@ -163,7 +163,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
-       // assert(hashGenesisBlock == uint256("0x"));
+       // assert(hashGenesisBlock == uint256("0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
