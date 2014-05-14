@@ -4,5 +4,5 @@ This is a 'getwork' CPU mining client for Lioncoin. It is pure-python, and there
 
 ### Other Resources ###
 
-- [LioncoinTalk Thread](https://lioncointalk.org/index.php?topic=3546.0)
+- [LioncoinTalk Thread](https://bitcointalk.org/index.php?topic=3546.0)
 - [Jgarzik Repo](https://github.com/jgarzik/pyminer)

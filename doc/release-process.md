@@ -183,7 +183,7 @@ From a directory containing lioncoin source, gitian.sigs and gitian zips
 
   - Add the release to lioncoin.org: https://github.com/lioncoin/lioncoin.org/tree/master/_releases
 
-  - Release sticky on lioncointalk: https://lioncointalk.org/index.php?board=1.0
+  - Release sticky on lioncointalk: https://bitcointalk.org/index.php?board=1.0
 
   - Lioncoin-development mailing list
 

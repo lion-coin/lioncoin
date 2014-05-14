@@ -6,7 +6,7 @@ Copyright (c) 2009-2014 Lioncoin Developers
 
 Setup
 ---------------------
-[Lioncoin Core](http://lioncoin.org/en/download) is the original Lioncoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Lioncoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](https://lioncointalk.org/index.php?topic=145386.0).
+[Lioncoin Core](http://lioncoin.org/en/download) is the original Lioncoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Lioncoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](https://bitcointalk.org/index.php?topic=145386.0).
 
 Running
 ---------------------
@@ -38,7 +38,7 @@ Drag Lioncoin-Qt to your applications folder, and then run Lioncoin-Qt.
 * See the documentation at the [Lioncoin Wiki](https://en.lioncoin.it/wiki/Main_Page)
 for help and more information.
 * Ask for help on [#lioncoin](http://webchat.freenode.net?channels=lioncoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=lioncoin).
-* Ask for help on the [LioncoinTalk](https://lioncointalk.org/) forums, in the [Technical Support board](https://lioncointalk.org/index.php?board=4.0).
+* Ask for help on the [LioncoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
 
 Building
 ---------------------
@@ -61,7 +61,7 @@ The Lioncoin repo's [root README](https://github.com/lioncoin/lioncoin/blob/mast
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [LioncoinTalk](https://lioncointalk.org/) forums, in the [Development & Technical Discussion board](https://lioncointalk.org/index.php?board=6.0).
+* Discuss on the [LioncoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
 * Discuss on [#lioncoin-dev](http://webchat.freenode.net/?channels=lioncoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=lioncoin-dev).
 
 ### Miscellaneous
