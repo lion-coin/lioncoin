@@ -8,7 +8,7 @@ Source: http://sourceforge.net/projects/lioncoin/files/
 Files: *
 Copyright: 2009-2012, Lioncoin Core Developers
 License: Expat
-Comment: The Lioncoin Core Developers encompasses the current developers listed on lioncoin.org,
+Comment: The Lioncoin Core Developers encompasses the current developers listed on lioncoin.info,
          as well as the numerous contributors to the project.
 
 Files: src/json/*

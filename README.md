@@ -1,7 +1,7 @@
 Lioncoin Core integration/staging tree
 =====================================
 
-http://www.lioncoin.org
+http://www.lioncoin.info
 
 Copyright (c) 2009-2013 Lioncoin Core Developers
 
@@ -15,7 +15,7 @@ out collectively by the network. Lioncoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Lioncoin Core software, see http://www.lioncoin.org/en/download.
+the Lioncoin Core software, see http://www.lioncoin.info/en/download.
 
 License
 -------

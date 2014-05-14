@@ -42,7 +42,7 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Lioncoin"
-#define QAPP_ORG_DOMAIN "lioncoin.org"
+#define QAPP_ORG_DOMAIN "lioncoin.info"
 #define QAPP_APP_NAME_DEFAULT "Lioncoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Lioncoin-Qt-testnet"
 

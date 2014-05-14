@@ -125,10 +125,10 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 * create SHA256SUMS for builds, and PGP-sign it
 
-* update lioncoin.org version
+* update lioncoin.info version
   make sure all OS download links go to the right versions
   
-* update download sizes on lioncoin.org/_templates/download.html
+* update download sizes on lioncoin.info/_templates/download.html
 
 * update forum version
 
@@ -181,7 +181,7 @@ From a directory containing lioncoin source, gitian.sigs and gitian zips
 
 - Announce the release:
 
-  - Add the release to lioncoin.org: https://github.com/lioncoin/lioncoin.org/tree/master/_releases
+  - Add the release to lioncoin.info: https://github.com/lioncoin/lioncoin.info/tree/master/_releases
 
   - Release sticky on lioncointalk: https://bitcointalk.org/index.php?board=1.0
 
